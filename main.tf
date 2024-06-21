@@ -2,7 +2,7 @@
 ############ PROVIDER BLOCK ############
 provider "aws" {
   region     = "us-east-1"
-  profile    = "default"
+  # profile    = "default"
 }
 ############ SAVING TF STATE FILE #########
 terraform {
